@@ -1,0 +1,333 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+body,html {
+    cursor: url(cursor.gif), pointer;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/*BLACK BORDER*/
+
+body {
+    background-color: white;
+}
+
+#top,
+#bottom,
+#left,
+#right {
+    background: black;
+    position: fixed;
+}
+
+#left,
+#right {
+    top: 0;
+    bottom: 0;
+    width: 40px;
+}
+
+#left {
+    left: 0;
+}
+
+#right {
+    right: 0;
+}
+
+#bottom {
+    left: 0;
+    right: 0;
+    height: 45px;
+    color: white;
+    font-family: Gotham, sans-serif;
+    font-size: 15px;
+    text-align: right;
+    padding-top: 12px;
+    padding-right: 40px;
+	font-weight: 600;
+}
+
+#top {
+    left: 0;
+    right: 0;
+    height: 230px;
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size 25px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 25px;
+    display: inline-block;
+    overflow: hidden;
+    position: fixed;
+    transition: height 0.3s;
+    z-index: 999;
+	font-weight: 100;
+}
+
+#top.smaller img {
+    width: auto;
+    height: 80px;
+    position: absolute;
+}
+
+#top.smaller {
+    height: 100px;
+    line-height: 75px;
+    font-size: 25px;
+}
+
+#top.smaller a {
+    height: 70px;
+    line-height: 75px;
+    font-size: 18px;
+}
+
+@media all and (max-width: 660px;
+) {
+    #top img {
+        height: 40px;
+    }
+    #top.smaller {
+        height: 50px;
+    }
+}
+
+#top img {
+    height: 160px;
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+#top a:hover {
+    background-color: #2b6475;
+}
+
+#top ul {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: 30px;
+    float: right;
+}
+
+#top ul a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 15px 60px;
+    transition: all 1s;
+    text-align: left
+}
+
+#top li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+#top {
+    top: 0;
+}
+
+#bottom {
+    bottom: 0;
+}
+
+
+/*TEXT*/
+
+h1 {
+    font-family: Gotham, Verdana, sans-serif;
+    font-size: 50px;
+    color: black;
+    padding-bottom: 20px;
+    line-height: 60px;
+}
+
+h2 {
+    font-family: Gotham, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: #284F60;
+    padding-bottom: 10px;
+    line-height: 45px;;
+}
+
+p {
+    font-family: Gotham, Verdana, sans-serif;
+    color: black;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+
+/*HEADER*/
+
+
+
+main {
+    padding: 300px 120px 50px;
+}
+
+#info {
+    padding; 5px;
+    line-height: 30px;
+    float: right;
+    padding: 5px;
+    height: 30%;
+    width: 35%;
+}
+
+
+#project video {
+    align-content: left;
+    width: 60%;
+    height: 600px;
+    padding-bottom: 100px;
+    display: inline-block;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
