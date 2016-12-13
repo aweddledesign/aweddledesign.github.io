@@ -302,18 +302,9 @@ main {
     padding; 5px;
     line-height: 30px;
     float: right;
-    padding: 5px;
+    padding: 2px;
     height: 30%;
     width: 35%;
-}
-
-
-#project img {
-    float: left;
-    width: 45%;
-    height: auto;
-    padding-bottom: 10px;
-    position: relative;
 }
 
 html,
@@ -628,9 +619,10 @@ h3 a:hover {
 }
 
 h4 {
-	font-family: Gotham, Verdana, sans-serif;
+	font-family: Playfair Display Bold;
+	font-style: oblique;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 20px;
     color: #284F60;
     padding-bottom: 10px;
     line-height: 45px;
@@ -644,12 +636,12 @@ h5 {
 }
 
 p {
-    font-family: Gotham, Verdana, sans-serif;
+    font-family: Playfair;
+	font-style: italic;
     color: black;
-    padding-top: 10px;
+    padding-top: 5px;
     font-size: 20px;
-    padding-bottom: 1px;
-    text-indent: 50px;
+    padding-bottom: 20px;
 }
 
 p a {
@@ -674,6 +666,7 @@ main {
 
 #info {
     float: right;
+	padding-top: 100px;
     padding: 5px;
     line-height: 30px;
     height: 100%;
@@ -681,21 +674,34 @@ main {
 }
 
 #project img {
-    float: left;
-    padding: 5px;
     height: auto;
-    width: 100%;
-    padding-bottom: 20px;
+    width: 700px;
+	border: solid 5px lightgray;
+	position: relative;
 }
 
 #project {
-    display: inline-block;
-    float: left;
+    padding-right: 10px;
+	padding-bottom: 20px;
     padding: 5px;
     line-height: 30px;
     height: 100%;
     width: 60%;
     padding-bottom: 100px;
+	display: inline-block;
+}
+
+#grid img {
+	display: inline-block;
+	height: 400px;
+	width: auto;
+	border: solid 5px lightgray;
+}
+
+#grid video {
+	display: inline-block;
+	width: 600px;
+	height: auto;
 }
 
 a {
@@ -704,9 +710,17 @@ a {
 }
 
 video {
-	border: 2px solid lightgray;
 	height: 400px;
-	width: auto;
+    width: auto;
+	border: solid 5px lightgray;
+	position: relative;
+}
+
+.tape video {
+	height: 800px;
+    width: auto;
+	border: solid 5px lightgray;
+	position: relative;
 }
 
 .bike {

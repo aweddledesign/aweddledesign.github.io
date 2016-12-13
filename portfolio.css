@@ -159,7 +159,7 @@ body {
 #right {
     top: 0;
     bottom: 0;
-    width: 40px;
+    width: 20px;
 }
 
 #left {
@@ -179,7 +179,7 @@ body {
     font-size: 15px;
     text-align: right;
     padding-top: 12px;
-    padding-right: 40px;
+    padding-right: 20px;
 	font-weight: 600;
 }
 
@@ -416,4 +416,9 @@ video {
 .bike {
 	height: 50px;
 	width: auto;
+}
+
+#project img {
+	width: 200px;
+	height: auto;
 }
