@@ -742,3 +742,10 @@ video {
 	width: 90%;
 	height: auto;
 }
+
+#tall img {
+	width: 40%;
+	height: auto;
+	display: inline-block;
+	border: solid 5px lightgray;
+}
