@@ -430,3 +430,7 @@ video {
 	width: 200px;
 	height: auto;
 }
+
+#name {
+	position: relative;
+}

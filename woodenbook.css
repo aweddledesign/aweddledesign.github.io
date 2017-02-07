@@ -701,7 +701,7 @@ main {
 	display: inline-block;
 	height: 600px;
 	width: auto;
-	border: solid 5px lightgray;
+	border: solid 2px lightgray;
 }
 
 #grid video {
