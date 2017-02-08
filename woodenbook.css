@@ -481,12 +481,15 @@ body {
     height: 45px;
     color: black;
     font-family: Gotham, sans-serif;
-    font-size: 15px;
+    font-size: 30px;
     text-align: right;
     padding-top: 12px;
     padding-right: 40px;
 	font-weight: 600;
-	opacity: .5;
+}
+
+#bottom {
+	padding-bottom: 50px;
 }
 
 #top {
@@ -546,6 +549,9 @@ body {
 
 #top a:hover {
     background-color: #427987;
+	transition-duration: .2s;
+	color: white;
+	font-weight: 500;
 }
 
 #top ul {
@@ -559,8 +565,9 @@ body {
     color: black;
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     font-family: sans-serif;
+	font-weight: 600;
     padding: 15px 60px;
     transition: all 1s;
     text-align: left
@@ -617,9 +624,8 @@ h3 a:hover {
 }
 
 h4 {
-	font-family: Playfair Display Bold;
+	font-family: Courier;
     font-weight: 700;
-	font-style: oblique;
     font-size: 40px;
     color: #284F60;
     padding-bottom: 5px;
@@ -635,12 +641,11 @@ h5 {
 }
 
 p {
-    font-family: Playfair;
-	font-style: italic;
+    font-family: Courier;
     color: black;
     padding-top: 5px;
-    font-size: 25px;
-    padding-bottom: 20px;
+    font-size: 20px;
+    padding-bottom: 50px;
 }
 
 p a {
@@ -701,7 +706,7 @@ main {
 	display: inline-block;
 	height: 600px;
 	width: auto;
-	border: solid 2px lightgray;
+	padding: 20px;
 }
 
 #grid video {
@@ -716,10 +721,11 @@ a {
 }
 
 video {
-	height: 400px;
+	height: 600px;
     width: auto;
 	border: solid 5px lightgray;
 	position: relative;
+	
 }
 
 .tape video {

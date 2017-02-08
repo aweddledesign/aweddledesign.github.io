@@ -306,11 +306,11 @@ h2 {
 }
 
 p {
-    font-family: Gotham, Verdana, sans-serif;
+	font-family: Courier;
     color: black;
-    font-size: 15px;
-    line-height: 25px;
-    text-indent: 50px;
+    padding-top: 5px;
+    font-size: 20px;
+    padding-bottom: 50px;
 }
 
 p a {
