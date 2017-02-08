@@ -171,12 +171,15 @@ body {
     height: 45px;
     color: black;
     font-family: Gotham, sans-serif;
-    font-size: 15px;
+    font-size: 30px;
     text-align: right;
     padding-top: 12px;
     padding-right: 40px;
 	font-weight: 600;
-	opacity: .5;
+}
+
+#bottom {
+	padding-bottom: 50px;
 }
 
 #top {
@@ -237,12 +240,14 @@ body {
 #top a:hover {
     background-color: #427987;
 	transition-duration: .2s;
+	color: white;
+	font-weight: 500;
 }
 
 #top ul {
     display: inline-block;
     vertical-align: bottom;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     float: right;
 }
 
@@ -250,8 +255,9 @@ body {
     color: black;
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     font-family: sans-serif;
+	font-weight: 600;
     padding: 15px 60px;
     transition: all 1s;
     text-align: left
@@ -310,7 +316,7 @@ p {
     color: black;
     padding-top: 5px;
     font-size: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 15px;
 }
 
 p a {
@@ -417,6 +423,7 @@ main ul li img:hover {
     float: left;
     margin-left: 20px;
     margin-top: 20px;
+	display: inline-block;
 }
 
 #SocialMediaIcons img:hover {
