@@ -254,7 +254,7 @@ body {
     color: black;
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     font-family: sans-serif;
 	font-weight: 600;
     padding: 15px 60px;
@@ -289,6 +289,7 @@ p {
     color: black;
     align-content: center;
 	line-height: 30px;
+	right: 60%;
 }
 
 h4 {
@@ -374,7 +375,7 @@ main li {
     
     #bottom {
         width: 100%;
-		font-size: 20px;
+		font-size: 15px;
 		padding-bottom: 5px;
 		padding-left: 5px;
     }
@@ -432,7 +433,7 @@ ul {
 
 video {
 	border: 5px solid gray;
-	height: 30px;
+	height: 40px;
 	width: auto;
 }
 
