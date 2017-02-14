@@ -414,10 +414,6 @@ body {
     line-height: 1;
 }
 
-body,html {
-    cursor: url(cursor.gif), pointer;
-}
-
 ol,
 ul {
     list-style: none;
