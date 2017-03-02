@@ -290,6 +290,7 @@ p {
     align-content: center;
 	line-height: 30px;
 	right: 60%;
+	font-size: 10pt;
 }
 
 h4 {
@@ -422,7 +423,7 @@ main li p {
 }
 
 ul {
-	padding-bottom: 900px;
+	padding-bottom: 1200px;
 }
 
 
