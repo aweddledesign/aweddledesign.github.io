@@ -349,14 +349,14 @@ main li {
 
 /*******Shrinking*********/
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
 	
 	#top {
 		width: 100%;
 	}
 	
 	#top img {
-		display: none;
+		height: 50px;
 	}
 	
 	#top li {
