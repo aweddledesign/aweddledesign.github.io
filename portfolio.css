@@ -353,7 +353,6 @@ main li {
 	
 	#top {
 		width: 100%;
-		padding-left: 5px;
 	}
 	
 	#top img {
@@ -368,10 +367,6 @@ main li {
     #top a {
         font-size: 10px;
 		align-content: center;
-    }
-    
-    #left, #right {
-        width: 10px;
     }
     
     #bottom {
