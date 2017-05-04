@@ -369,6 +369,10 @@ main li {
 		align-content: center;
     }
     
+    #left, #right {
+        width: 5px;
+    }
+    
     #bottom {
         width: 100%;
 		font-size: 20px;
