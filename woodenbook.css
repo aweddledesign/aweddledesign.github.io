@@ -794,7 +794,7 @@ video {
 
 /*******Shrinking*********/
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
 	
 	#top {
 		width: 100%;
@@ -816,12 +816,12 @@ video {
     }
     
     #left, #right {
-        width: 5px;
+        width: 10px;
     }
     
     #bottom {
         width: 100%;
-		font-size: 15px;
+		font-size: 30px;
 		padding-bottom: 5px;
 		padding-left: 5px;
     }
