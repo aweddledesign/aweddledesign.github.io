@@ -357,7 +357,7 @@ main li {
 	}
 	
 	#top img {
-		visibility: hidden;
+		display: none;
 	}
 	
 	#top li {
