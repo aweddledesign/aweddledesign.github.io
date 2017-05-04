@@ -367,6 +367,7 @@ main li {
     #top a {
         font-size: 10px;
 		align-content: center;
+		font-weight: 100;
     }
     
     #left, #right {
