@@ -364,7 +364,7 @@ main li {
 		margin-right: 0;
 	}
 	
-    #top a {
+    #top ul li a {
         font-size: 10px;
 		align-content: center;
 		font-weight: 100;
