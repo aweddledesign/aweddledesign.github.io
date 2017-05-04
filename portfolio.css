@@ -257,7 +257,7 @@ body {
     font-size: 15px;
     font-family: sans-serif;
 	font-weight: 600;
-    padding: 15px 60px;
+    padding: 10px 20px;
     transition: all 1s;
     text-align: left
 }
@@ -285,7 +285,7 @@ h1 {
 }
 
 p {
-    font-family: Courier;
+    font-family: Gotham, Verdana, sans-serif;
     color: black;
     align-content: center;
 	line-height: 30px;
@@ -294,7 +294,7 @@ p {
 }
 
 h4 {
-	font-family: Courier;
+	font-family: Gotham, Verdana, sans-serif;
     font-weight: 700;
     font-size: 40px;
     color: #284F60;
@@ -303,8 +303,6 @@ h4 {
 	opacity: .6;
 	padding-bottom: 100px;
 }
-
-
 
 /*HEADER*/
 
@@ -355,11 +353,11 @@ main li {
 	
 	#top {
 		width: 100%;
+		padding-left: 5px;
 	}
 	
 	#top img {
-		width: 30%;
-		height: auto;
+		visibility: hidden;
 	}
 	
 	#top li {
@@ -382,6 +380,9 @@ main li {
 		padding-bottom: 5px;
 		padding-left: 5px;
     }
+	#option {
+		visibility: hidden;
+	}
 }
     
 /************COLOROVERLAY*************/
@@ -398,7 +399,7 @@ main li {
 }
 
 main li div {
-    background: RGBA(26, 80, 98, .7);
+    background: RGBA(26, 80, 98, .9);
     position: absolute;
     top: 10px;
     left: 10px;
@@ -420,6 +421,7 @@ main li p {
     font-size: 20px;
     text-align: center;
     margin-top: 50%;
+	text-transform: uppercase;
 }
 
 ul {
@@ -453,49 +455,3 @@ video {
 #name {
 	position: relative;
 }
-
-/*
-.dropbtn {
-	height: 30px;
-	width: auto;
-	position:relative;
-    transition: .5s ease;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: block;
-    float: right;
-	top: 10px;
-	left: 1950px;
-}
-
-.dropdown {
-	position: relative;
-	display: inline-block;
-}
-
-.dropdown-content {
-	display: none;
-	position: absolute;
-	background: #f9f9f9;
-	min-width: 160px;
-	z-index: 9000000;
-}
-
-.dropdown-content a {
-	color: black;
-	padding: 12px 16px;
-	font-family: Courier;
-	display: block;
-}
-
-.dropdown-content a:hover {
-	background-color: green;
-}
-
-.dropdown:hover .dropdown-content{
-	display: block;
-}
-
-.dropdown:hover .dropbtn {
-	opacity: .5;
-}*/
