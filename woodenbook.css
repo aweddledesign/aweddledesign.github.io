@@ -667,7 +667,6 @@ p a:hover {
 /*HEADER*/
 
 
-
 main {
     height: 100%;
 }
@@ -679,50 +678,28 @@ main {
 	display: block;
 }
 
-/*
-#project {
-    padding-right: 10px;
-	padding-bottom: 20px;
-    padding: 5px;
-    line-height: 30px;
-    height: 100%;
-    width: 60%;
-    padding-bottom: 100px;
-	display: inline-block;
-	position: relative;
-}
-
-#project img {
-    height: auto;
-    width: 700px;
-	border: solid 5px lightgray;
-	position: relative;
-}
-*/
-
 #breakfast video {
 	height: auto;
     width: 1200px;
-	border: solid 5px lightgray;
 	position: relative;
 }
 
 #grid {
-	width: 200px;
+	width: 100%;
 	float: left;
+	display:block;
 }
 
 #grid img {
-	display: inline-block;
-	height: 600px;
+	height: 800px;
 	width: auto;
 	padding: 20px;
 }
 
 #grid video {
 	display: inline-block;
-	width: 800px;
-	height: auto;
+	width: auto;
+	height: 800px;
 }
 
 a {
@@ -752,7 +729,12 @@ video {
 
 #info {
 	display: inline-block;
-	margin-left: 50px;
+	margin-left: 30px;
+	
+}
+
+#info p {
+	width: 1000px;
 }
 
 #long img {
@@ -765,13 +747,6 @@ video {
 	height: auto;
 	display: inline-block;
 	border: solid 5px lightgray;
-}
-
-#identity img {
-	display: inline-block;
-	height: 450px;
-	width: auto;
-	padding: 20px;
 }
 
 /*******Shrinking*********/
@@ -809,6 +784,9 @@ video {
     }
 	#option {
 		visibility: hidden;
+	}
+	#info p {
+		width: 100%;
 	}
 }
 
