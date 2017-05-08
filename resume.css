@@ -300,6 +300,8 @@ main {
 
 main .img {
 	float: left;
+	width: 30%;
+	height: auto;
 }
 
 main li {
