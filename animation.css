@@ -256,7 +256,8 @@ body {
     font-family: sans-serif;
     padding: 15px 60px;
     transition: all 1s;
-    text-align: left
+    text-align: left;
+	font-weight: 100;
 }
 
 #top li {
