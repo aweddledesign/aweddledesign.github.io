@@ -688,6 +688,7 @@ main {
 	width: 100%;
 	float: left;
 	display:block;
+	padding-bottom: 50px;
 }
 
 #grid img {
