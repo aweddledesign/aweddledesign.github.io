@@ -403,7 +403,7 @@ main li {
 }
 
 main li div {
-    background: RGBA(26, 80, 98, .9);
+    background: #EDAA96;
     position: absolute;
     top: 10px;
     left: 10px;
