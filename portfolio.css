@@ -403,7 +403,7 @@ main li {
 }
 
 main li div {
-    background: #EDAA96;
+    background: #1D5061;
     position: absolute;
     top: 10px;
     left: 10px;
@@ -414,7 +414,7 @@ main li div {
 }
 
 main li:hover div {
-    opacity: 1;
+    opacity: .7;
 	transition-duration: .2s;
 } 
 
