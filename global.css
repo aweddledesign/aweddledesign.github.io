@@ -1,0 +1,322 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+#container {
+	background: white;
+	margin: 40px;
+}
+
+.whitefade {
+	width: 100%;
+	height: 300px;
+	background-color: white;
+	background: linear-gradient(RGBA(255, 255, 255, 1), RGBA(255, 255, 255, .6), RGBA(255, 255, 255, 0));
+	position: fixed;
+	z-index: 100;
+}
+
+.logo img {
+	height: 120px;
+	width: auto;
+	padding-top: 70px;
+	padding-left: 50px;
+	float: left;
+}
+
+ul li {
+	list-style: none;
+}
+
+a {
+	font-family: Montserrat, Arial, sans-serif;
+}
+
+h1 {
+	font-family: Montserrat, Arial, sans-serif;
+	font-size: 30px;
+	font-weight: 100;
+	display: inline-block;
+	padding-bottom: 50px;
+	padding-top: 0px;
+	float: left;
+	margin-left: 50px;
+	position: absolute;
+	color: #151718;
+	width: 50%;
+	line-height: 1.5;
+}
+
+h1 .dropdown {
+	font-weight: 900;
+	transition: all .5s;
+	margin: 5px;
+	cursor: pointer;
+}
+
+h1 .dropdown a {
+	color: #1D5061;
+	transition: all .25s ease-in-out;
+}
+
+h1 .dropdown a:hover {
+	color: tomato;
+}
+
+h1 .dropdown:after {
+	content: " + ";
+}
+
+h2 {
+	font-family: Montserrat, Arial, sans-serif;
+	font-size: 30px;
+	font-weight: 100;
+	display: inline-block;
+	padding-top: 10px;
+	float: left;
+	margin-left: 50px;
+	position: absolute;
+	color: #151718;
+	width: 50%;
+	line-height: 1.5;
+}
+
+p.description {
+	font-family: Playfair, serif;
+	font-size: 15px;
+	width: 60%;
+	padding-top: 100px;
+	padding-left: 130px;
+	line-height: 1.5;
+}
+
+p.credit {
+	font-family: Playfair, serif;
+	font-size: 15px;
+	width: 60%;
+	padding-top: 10px;
+	padding-left: 130px;
+	line-height: 1.5;
+}
+
+img {
+	height: 300px;
+	width: auto;
+}
+
+.grid {
+	margin: auto;
+	width: 85%;
+	padding-bottom: 80px;
+	padding-top: 300px;
+}
+
+.grid p {
+	position: absolute;
+	visibility: hidden;
+}
+
+.grid a:hover {
+	transition: all .5s ease-in-out;
+	position: relative;
+	opacity: .3;
+	visibility: visible;
+}
+
+.menu {
+	padding-right: 70px;
+	padding-top: 50px;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #151718;
+	transition: all .2s ease-in-out;
+}
+
+.dropdown a.current {
+	color: tomato;
+}
+
+a:hover {
+	color: tomato;
+}
+
+.menu ul li {
+	display: inline;
+	float: right;
+	padding-top: 20px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	cursor: pointer;
+}
+
+.project {
+	margin: auto;
+	width: 85%;
+	padding-bottom: 80px;
+	padding-top: 320px;
+}
+
+.project img {
+	height: 400px;
+	width: auto;
+}
+
+/*RESPONSIVENESS*/
+
+@media only screen and (max-width: 1159px) {
+    h1 {
+        font-size: 25px;
+		width: 40%;
+    }
+	
+	.menu ul li {
+		font-size: 15px;
+		padding-right: 30px;
+	}
+}
+
+@media only screen and (max-width: 1062px) {
+    .grid {
+        width: 87%;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+	h1 {
+		font-size: 20px;
+	}
+	.menu ul li {
+		font-size: 10px;
+		padding-right: 30px;
+	}
+	.grid {
+        width: 80%;
+		padding-top: 250px;
+    }
+	img {
+		height: 400px;
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 1004px) {
+    .grid {
+        width: 87%;
+    }
+	img {
+		height: 400px;
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 919px) {
+    .grid {
+        width: 90%;
+		padding-top: 200px;
+    }
+	img {
+		height: 400px;
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 892px) {
+    .grid {
+        width: 95%;
+    }
+	img {
+		height: 400px;
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 845px) {
+    .grid {
+        width: 96%;
+    }
+	img {
+		height: 400px;
+		width: auto;
+	}
+	.menu ul li {
+		display: table-column;
+	}
+}
+
+@media only screen and (max-width: 835px) {
+	h1 {
+		display: none;
+	}
+	.grid {
+        width: 75%;
+		padding-top: 100px;
+    }
+	img {
+		height: 600px;
+		width: auto;
+	}
+	.menu ul li {
+		display: table-column;
+	}
+}
+
+@media only screen and (max-width: 699px) {
+	h1 {
+		display: none;
+	}
+	.whitefade {
+		height: 200px;
+	}
+	.grid {
+        width: 85%;
+    }
+	img {
+		height: 500px;
+		width: auto;
+	}
+	.menu ul li {
+		display: table-column;
+	}
+}
+
+@media only screen and (max-width: 549px) {
+	.grid {
+        width: 85%;
+    }
+	img {
+		height: 400px;
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.grid {
+        width: 70%;
+    }
+	img {
+		height: 300px;
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 412px) {
+	.logo img {
+        display: none;
+    }
+	img {
+		height: 300px;
+		width: auto;
+	}
+}
