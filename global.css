@@ -98,8 +98,8 @@ p.description {
 
 p.credit {
 	font-family: Playfair, serif;
-	font-size: 15px;
-	width: 60%;
+	font-size: 10px;
+	width: 40%;
 	padding-top: 10px;
 	padding-left: 130px;
 	line-height: 1.5;
@@ -114,7 +114,7 @@ img {
 	margin: auto;
 	width: 85%;
 	padding-bottom: 80px;
-	padding-top: 300px;
+	padding-top: 200px;
 }
 
 .grid p {
