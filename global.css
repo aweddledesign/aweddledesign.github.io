@@ -94,6 +94,7 @@ h3 {
 	float: left;
 	color: #ED6D52;
 	width: 100%;
+	padding-top: 20px;
 }
 
 p.description {
@@ -108,7 +109,7 @@ p.description {
 p.credit {
 	font-family: Roboto;
 	font-size: 15px;
-	width: 40%;
+	width: 70%;
 	padding-top: 10px;
 	padding-left: 130px;
 	line-height: 1.5;
@@ -189,7 +190,7 @@ a:hover {
 	margin: auto;
 	width: 85%;
 	padding-bottom: 80px;
-	padding-top: 320px;
+	padding-top: 330px;
 }
 
 .project img {
