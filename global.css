@@ -97,7 +97,7 @@ h3 {
 }
 
 p.description {
-	font-family: Playfair, serif;
+	font-family: Roboto;
 	font-size: 17px;
 	width: 70%;
 	padding-top: 100px;
@@ -106,7 +106,7 @@ p.description {
 }
 
 p.credit {
-	font-family: Playfair, serif;
+	font-family: Roboto;
 	font-size: 15px;
 	width: 40%;
 	padding-top: 10px;
