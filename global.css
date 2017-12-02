@@ -15,7 +15,7 @@ html {
 
 .whitefade {
 	width: 100%;
-	height: 300px;
+	height: 200px;
 	background-color: white;
 	background: linear-gradient(RGBA(255, 255, 255, 1), RGBA(255, 255, 255, .6), RGBA(255, 255, 255, 0));
 	position: fixed;
@@ -43,7 +43,6 @@ h1 {
 	font-size: 25px;
 	font-weight: 100;
 	display: inline-block;
-	padding-bottom: 50px;
 	padding-top: 0px;
 	float: left;
 	margin-left: 50px;
@@ -101,7 +100,7 @@ h3 {
 p {
 	font-family: Roboto;
 	font-size: 15px;
-	width: 70%;
+	width: 90%;
 	padding-top: 10px;
 	padding-bottom: 20px;
 	line-height: 1.3;
@@ -121,7 +120,7 @@ p.credit {
 	font-size: 15px;
 	width: 70%;
 	padding-top: 10px;
-	padding-left: 130px;
+	padding-left: 20px;
 	line-height: 1.5;
 }
 
@@ -149,7 +148,7 @@ img .larger {
 	margin: auto;
 	width: 85%;
 	padding-bottom: 80px;
-	padding-top: 200px;
+	padding-top: 150px;
 }
 
 .grid p {
@@ -192,7 +191,7 @@ a:hover {
 	float: right;
 	padding-top: 20px;
 	padding-right: 40px;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 	cursor: pointer;
 }
 
@@ -200,7 +199,7 @@ a:hover {
 	margin: auto;
 	width: 85%;
 	padding-bottom: 80px;
-	padding-top: 330px;
+	padding-top: 120px;
 }
 
 .project img {
@@ -225,6 +224,20 @@ a:hover {
 
 /*RESPONSIVENESS*/
 
+@media only screen and (max-width: 1250px) {
+	h1 {
+		font-size: 20px;
+		width: 40%;
+	}
+}
+
+@media only screen and (max-width: 1020px) {
+	h1 {
+		position: absolute;
+	}
+}
+
+/*
 @media only screen and (max-width: 1159px) {
     h1 {
         font-size: 25px;
@@ -239,7 +252,7 @@ a:hover {
 
 @media only screen and (max-width: 1062px) {
     .grid {
-        width: 87%;
+        width: 100%;
     }
 }
 
@@ -369,4 +382,4 @@ a:hover {
 		height: 300px;
 		width: auto;
 	}
-}
+}*/
