@@ -151,18 +151,27 @@ img .larger {
 	padding-top: 50px;
 }
 
+.menu a {
+	color: black;
+}
+
+.menu a:hover {
+	color: #FF6347;
+	transition: all .1s ease-in-out;
+}
+
 ul {
 	list-style: none;
 }
 
 a {
 	text-decoration: none;
-	color: #151718;
-	transition: all .1s ease-in-out;
+	color: #FF6347;
+	transition: all .25s ease-in-out;
 }
 
 a:hover {
-	color: tomato;
+	color: #2B4F5F;
 }
 
 .menu ul li {
@@ -178,7 +187,7 @@ a:hover {
 	margin: 80px;
 	width: 85%;
 	padding-bottom: 80px;
-	padding-top: 120px;
+	padding-top: 10px;
 }
 
 .project img {
@@ -304,7 +313,6 @@ a:hover {
 @media only screen and (max-width: 575px) {
 	h1 {
 		width: 90%;
-		font-size: 12px;
 	}
 	grid {
 		width: 100%;
@@ -365,7 +373,6 @@ a:hover {
 @media only screen and (max-width: 420px) {
 	h1 {
 		width: 80%;
-		font-size: 15px;
 	}
 	h2 {
 		font-size: 18px;
